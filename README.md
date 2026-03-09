@@ -9,3 +9,4 @@ Learning frontend development step by step.
 
 ## Progress
 - Day 1: Basic HTML structure
+- Day 2: Portifolio Structure
