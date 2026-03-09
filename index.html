@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Madhumani Prajapati</title>
 </head>
 <body>
-  <h1>Hello World</h1>
-  <h2>day 1 progress</h2>
-  <p>I am becoming a frontend developer.</p>
+  <header>
+   <nav id="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <h1>My Portfolio</h1>
+    <p>Hello, My name is Madhumani Prajapati.<br>
+       I am learning Frontend Development.</p>
+
+  <main>
+   <section id="about">
+    <h2>About Me</h2>
+
+      <figure>
+        <img src="images/profile.jpeg"  alt="Madhumani Prajapati profile photo" height="150" weight="150">
+      </figure>
+
+      <figcaption>Madhumani Prajapati</figcaption>
+       <p> I am aspiring B.tech (CSE) student, interested in exploring the web development tech stack.</p>
+   </section> 
+
+    <section id="skills">
+     <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Git</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+     <h2>Projects</h2>
+      <article>
+        <h3>To-do list</h3>
+        <p>A task management app built using HTML,CSS and Javascript.</p>
+      </article>
+
+      <article>
+        <h3>Weather App</h3>
+        <p>An application that shows weather data using an API.</p>
+      </article>
+
+      <article>
+        <h3>Landing Page</h3>
+        <p>A responsive landing page design.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="name"><br><br>
+        <label for="contact">Contact</label>
+        <input type="number" placeholder="contact number" id="contact"><br><br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter email" id="email"><br><br>   
+        <button type="submit">Send me message</button>  
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Let's build something together.</p>
+    <a href="https://github.com/MadhuPrajapati" >Visit my Github Profile</a>
+  </footer>
+
 </body>
 </html>
